@@ -1,0 +1,43 @@
+name: Build Quasar
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: windows-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Setup .NET Framework
+      uses: microsoft/setup-dotnet@v1
+      with:
+        dotnet-version: '4.8.x'
+    
+    - name: Restore dependencies
+      run: |
+        dotnet restore Quasar.sln
+    
+    - name: Build Server
+      run: |
+        dotnet build Quasar.Server/Quasar.Server.csproj -c Release --no-restore
+    
+    - name: Build Client
+      run: |
+        dotnet build Quasar.Client/Quasar.Client.csproj -c Release --no-restore
+    
+    - name: Upload Server Artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: Quasar-Server
+        path: Quasar.Server/bin/Release/
+    
+    - name: Upload Client Artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: Quasar-Client
+        path: Quasar.Client/bin/Release/
