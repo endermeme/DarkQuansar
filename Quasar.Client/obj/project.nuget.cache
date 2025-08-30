@@ -1,0 +1,57 @@
+{
+  "version": 2,
+  "dgSpecHash": "QusagMKwjHrPrGi2qZ0/cMTMht6cIUu7DRuAY9ZDB9rs6e2RaOabV9qxg+4Tkfktdb/uI7ur7e8fTyHO+WXfKQ==",
+  "success": false,
+  "projectFilePath": "/home/binhtagilla/Projects/Quasar/Quasar.Client/Quasar.Client.csproj",
+  "expectedPackageFiles": [
+    "/home/binhtagilla/.nuget/packages/ilrepack.lib.msbuild.task/2.0.18.2/ilrepack.lib.msbuild.task.2.0.18.2.nupkg.sha512",
+    "/home/binhtagilla/.nuget/packages/microsoft.extensions.objectpool/6.0.16/microsoft.extensions.objectpool.6.0.16.nupkg.sha512",
+    "/home/binhtagilla/.nuget/packages/microsoft.netframework.referenceassemblies/1.0.3/microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "/home/binhtagilla/.nuget/packages/microsoft.netframework.referenceassemblies.net452/1.0.3/microsoft.netframework.referenceassemblies.net452.1.0.3.nupkg.sha512",
+    "/home/binhtagilla/.nuget/packages/microsoft.win32.registry/5.0.0/microsoft.win32.registry.5.0.0.nupkg.sha512",
+    "/home/binhtagilla/.nuget/packages/microsoft.win32.systemevents/8.0.0/microsoft.win32.systemevents.8.0.0.nupkg.sha512",
+    "/home/binhtagilla/.nuget/packages/mousekeyhook/5.6.0/mousekeyhook.5.6.0.nupkg.sha512",
+    "/home/binhtagilla/.nuget/packages/portable.bouncycastle/1.9.0/portable.bouncycastle.1.9.0.nupkg.sha512",
+    "/home/binhtagilla/.nuget/packages/protobuf-net/2.4.8/protobuf-net.2.4.8.nupkg.sha512",
+    "/home/binhtagilla/.nuget/packages/system.codedom/8.0.0/system.codedom.8.0.0.nupkg.sha512",
+    "/home/binhtagilla/.nuget/packages/system.drawing.common/8.0.0/system.drawing.common.8.0.0.nupkg.sha512",
+    "/home/binhtagilla/.nuget/packages/system.formats.asn1/6.0.0/system.formats.asn1.6.0.0.nupkg.sha512",
+    "/home/binhtagilla/.nuget/packages/system.management/8.0.0/system.management.8.0.0.nupkg.sha512",
+    "/home/binhtagilla/.nuget/packages/system.security.accesscontrol/6.0.0/system.security.accesscontrol.6.0.0.nupkg.sha512",
+    "/home/binhtagilla/.nuget/packages/system.security.cryptography.pkcs/6.0.1/system.security.cryptography.pkcs.6.0.1.nupkg.sha512",
+    "/home/binhtagilla/.nuget/packages/system.security.cryptography.xml/6.0.1/system.security.cryptography.xml.6.0.1.nupkg.sha512",
+    "/home/binhtagilla/.nuget/packages/system.servicemodel.http/8.0.0/system.servicemodel.http.8.0.0.nupkg.sha512",
+    "/home/binhtagilla/.nuget/packages/system.servicemodel.primitives/8.0.0/system.servicemodel.primitives.8.0.0.nupkg.sha512",
+    "/home/binhtagilla/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.19/microsoft.aspnetcore.app.ref.8.0.19.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package System.Windows.Forms with version (>= 8.0.0)\n  - Found 1 version(s) in nuget.org [ Nearest version: 4.0.0 ]",
+      "libraryId": "System.Windows.Forms",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package System.Security.Principal.Windows with version (>= 8.0.0)\n  - Found 57 version(s) in nuget.org [ Nearest version: 6.0.0-preview.5.21301.5 ]",
+      "libraryId": "System.Security.Principal.Windows",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'MouseKeyHook 5.6.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "MouseKeyHook",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "ENlaYaClg8YnJ291Xwb7LJ3Xmb1QbWmOIuUrGnRMV3iPoQEX98Pjp6+KqHJP4/FDWzkeIo1yHaJ00dk7BPjwyQ==",
+  "success": true,
+  "projectFilePath": "/home/binhtagilla/Projects/Quasar/Quasar.Common.Tests/Quasar.Common.Tests.csproj",
+  "expectedPackageFiles": [
+    "/home/binhtagilla/.nuget/packages/microsoft.codecoverage/17.3.2/microsoft.codecoverage.17.3.2.nupkg.sha512",
+    "/home/binhtagilla/.nuget/packages/microsoft.net.test.sdk/17.3.2/microsoft.net.test.sdk.17.3.2.nupkg.sha512",
+    "/home/binhtagilla/.nuget/packages/microsoft.netframework.referenceassemblies/1.0.3/microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "/home/binhtagilla/.nuget/packages/microsoft.netframework.referenceassemblies.net452/1.0.3/microsoft.netframework.referenceassemblies.net452.1.0.3.nupkg.sha512",
+    "/home/binhtagilla/.nuget/packages/mstest.testadapter/2.2.10/mstest.testadapter.2.2.10.nupkg.sha512",
+    "/home/binhtagilla/.nuget/packages/mstest.testframework/2.2.10/mstest.testframework.2.2.10.nupkg.sha512",
+    "/home/binhtagilla/.nuget/packages/protobuf-net/2.4.8/protobuf-net.2.4.8.nupkg.sha512"
+  ],
+  "logs": []
+}
